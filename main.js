@@ -12,5 +12,7 @@ function btnClicked(){
     let total = num1 + num2;
 
     //output
-    document.getElementById("output").innerHTML = total;
+    document.getElementById("fstN").innerHTML = `First Number: ${num1}`;
+    document.getElementById("scdN").innerHTML = `Second Number: ${num2}`;
+    document.getElementById("sum").innerHTML = `The sum of ${num1} and ${num2} is: ${total}`;
 }
